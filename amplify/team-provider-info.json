@@ -20,6 +20,14 @@
           "appId": "d2mdn3tbhftvbf",
           "type": "cicd"
         }
+      },
+      "auth": {
+        "nextamplified968a42dd": {}
+      },
+      "function": {
+        "nextamplified968a42ddPreSignup": {
+          "DOMAINALLOWLIST": "thinslices.com"
+        }
       }
     }
   }
