@@ -1,8 +1,14 @@
 import type { Metadata } from 'next'
+import { Amplify } from 'aws-amplify';
 import { Inter } from 'next/font/google'
+
+import '@aws-amplify/ui-react/styles.css';
+
 import './globals.css'
+import config from '../amplifyconfiguration.json';
 
 const inter = Inter({ subsets: ['latin'] })
+Amplify.configure(config);
 
 export const metadata: Metadata = {
   title: 'Create Next App',

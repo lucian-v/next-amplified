@@ -9,7 +9,8 @@
       "UnauthRoleName": "amplify-nextamplified-dev-95710-unauthRole",
       "StackName": "amplify-nextamplified-dev-95710",
       "StackId": "arn:aws:cloudformation:eu-central-1:911004016169:stack/amplify-nextamplified-dev-95710/b21e0940-aec4-11ee-b9f4-025d81033ba3",
-      "AmplifyAppId": "d2mdn3tbhftvbf"
+      "AmplifyAppId": "d2mdn3tbhftvbf",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-nextamplified-dev-95710-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
     },
     "categories": {
       "api": {
@@ -26,7 +27,9 @@
       },
       "function": {
         "nextamplified968a42ddPreSignup": {
-          "DOMAINALLOWLIST": "thinslices.com"
+          "DOMAINALLOWLIST": "thinslices.com",
+          "deploymentBucketName": "amplify-nextamplified-dev-95710-deployment",
+          "s3Key": "amplify-builds/nextamplified968a42ddPreSignup-5962734b2f6838644868-build.zip"
         }
       }
     }

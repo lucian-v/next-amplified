@@ -78,6 +78,22 @@
         }
       ]
     },
+    "AMPLIFY_function_nextamplified968a42ddPreSignup_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "nextamplified968a42ddPreSignup"
+        }
+      ]
+    },
+    "AMPLIFY_function_nextamplified968a42ddPreSignup_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "nextamplified968a42ddPreSignup"
+        }
+      ]
+    },
     "AMPLIFY_hosting_amplifyhosting_appId": {
       "usedBy": [
         {
